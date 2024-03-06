@@ -10,7 +10,6 @@ export default function EditUser() {
   });
 
   const navigate = useNavigate();
-  
   const {id} = useParams()
 
   const changeHandler = (e) => {
