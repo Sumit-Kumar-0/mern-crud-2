@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+a:hover,
+a.active {
+  text-decoration: none;
+  color: #4a6bff;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  background-color: #5d5d5d;
+}
+main.main {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+form.add-user {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.input {
+  width: 600px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+}
+button{
+  padding: 14px 24px;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  border: none;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.all {
+  background: #f1f1f1;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.single {
+  background: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(25% - 30px);
+  text-align: center;
+  cursor: pointer;
+}
+
+.btns{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+p{
+  font-size: 18px;
+}
